@@ -19,9 +19,9 @@ const svgMap = {
 
 function AnimalShow({ type }) {
   return (
-    <>
-      <div>{type}</div>
-    </>
+    <div>
+      <img src={svgMap[type]} alt="animal" />
+    </div>
   );
 }
 
